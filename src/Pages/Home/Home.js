@@ -1,9 +1,10 @@
 import React from 'react';
+import Blogs from '../Blogs/Blogs';
 
 const Home = () => {
     return (
-        <div>
-            <h1 className='text-red-400'>Home page</h1>
+        <div className='lg:mx-52 mx-5'>
+           <Blogs/>
         </div>
     );
 };
